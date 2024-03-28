@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+.header-wrapper{
+    padding-top: 0.4rem;
+}
+.links {
+    display: flex;
+     margin-bottom: 0;
+    list-style-type: none;
+}
+.links li{
+    margin: 0.5rem;
+}
+.links li :hover{
+    cursor: pointer;
+    border-bottom: 2px solid orange;
+
+}
